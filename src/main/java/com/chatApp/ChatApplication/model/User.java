@@ -38,7 +38,7 @@ public class User {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private UserStatus status = UserStatus.OFFLINE;
+    private UserStatus status = UserStatus.ONLINE;
 
     @CreatedDate
     @Column(name = "created_at", nullable = false, updatable = false)
